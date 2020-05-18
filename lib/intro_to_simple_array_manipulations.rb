@@ -3,5 +3,21 @@ def using_concat(array1,array2)
 end  
 
 def using_insert(array1,element)
-  array1.insert(array2)
+  array1.insert(4, element)
 end    
+
+def using_uniq(array1)
+  array1.uniq()
+end  
+
+def using_flatten(array)
+  array.flatten()
+end  
+
+def using_delete(array, string)
+  array.delete(string)
+end  
+
+def using_delete_at(array, integer)
+  array.delete(integer)
+end  
